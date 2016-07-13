@@ -62,7 +62,6 @@
 		4091FBB9624025711B56808DA069BB99 /* FBSDKAccessTokenCacheV4.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D134FD39261E1D2C44B8CFB4D1AAF33 /* FBSDKAccessTokenCacheV4.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4151A1A3483D663770E5AC8E08E89474 /* FBSDKGraphRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FFC5043135041AA20C06C2F971A2A5 /* FBSDKGraphRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4842CF7A08B39729833F408902F1ADF0 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D2311009CE5B2B2B31DC338F968730 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		484BA6D52FA1AAB3CE29A0A41F3F6EAB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2105313EE543EC36187C5AB597A4D5DA /* Bolts.framework */; };
 		48D8F32EC0B32EEE9FA0B8F60E447887 /* FBSDKPaymentObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F65848A0327A8A2084F516EAB7D7EC /* FBSDKPaymentObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B42AB3B0147E10869BABB83CC9D1770 /* FBSDKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A2D132555937E73893A88225001292 /* FBSDKIcon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B4B2B87CA851CEDEDF6AC671EC8D862 /* FBSDKKeychainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B258D9DE291328FC21B7E1F5D1D5B5AB /* FBSDKKeychainStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -269,7 +268,6 @@
 		1F9C1BF2B7E65B644FA8DDF4DFCE9746 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		1FC22414CA2C8505087CF7474B526D77 /* _FBSDKTemporaryErrorRecoveryAttempter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBSDKTemporaryErrorRecoveryAttempter.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/ErrorRecovery/_FBSDKTemporaryErrorRecoveryAttempter.h; sourceTree = "<group>"; };
 		20D2311009CE5B2B2B31DC338F968730 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
-		2105313EE543EC36187C5AB597A4D5DA /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211EEA70DE23349C9CE126A3032B4DCB /* FBSDKWebDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKWebDialogView.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/WebDialog/FBSDKWebDialogView.h; sourceTree = "<group>"; };
 		21392B3026C7F68AE3E20B97518C0D8F /* FBSDKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKColor.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKColor.m; sourceTree = "<group>"; };
 		217301916293CF8CD1537D5AA0F289B3 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
@@ -519,7 +517,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484BA6D52FA1AAB3CE29A0A41F3F6EAB /* Bolts.framework in Frameworks */,
 				F9EC825DE6BCCD6AF4C67B4D855F6673 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1168,7 +1165,6 @@
 		F738CE654809481B845A8463BC77A3C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2105313EE543EC36187C5AB597A4D5DA /* Bolts.framework */,
 				772EFD1870A7278F35957AEFB56804B4 /* iOS */,
 			);
 			name = Frameworks;

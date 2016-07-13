@@ -9,10 +9,13 @@
 import UIKit
 import Firebase
 
+let ref = FIRDatabase.database().reference()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let ref = FIRDatabase.database().reference()
+    let TappableRed = UIColor(red: 255.0/255.0, green: 167.0/255.0, blue: 127.0/255.0, alpha: 1.0)
+    
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

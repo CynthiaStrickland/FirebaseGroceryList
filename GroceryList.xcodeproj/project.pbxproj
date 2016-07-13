@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209D50EE90BB9088B6EC6B45 /* Pods_GroceryListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79F74E62532CE337E929428 /* Pods_GroceryListTests.framework */; };
+		3D4FD6531D1B168A006015E8 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FD6521D1B168A006015E8 /* GoogleService-Info (1).plist */; };
 		3D991FB71D1B07F900BAEBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FB61D1B07F900BAEBCC /* AppDelegate.swift */; };
-		3D991FB91D1B07F900BAEBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FB81D1B07F900BAEBCC /* ViewController.swift */; };
-		3D991FBC1D1B07F900BAEBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D991FBA1D1B07F900BAEBCC /* Main.storyboard */; };
+		3D991FB91D1B07F900BAEBCC /* GroceryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FB81D1B07F900BAEBCC /* GroceryListController.swift */; };
 		3D991FBE1D1B07F900BAEBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D991FBD1D1B07F900BAEBCC /* Assets.xcassets */; };
 		3D991FC11D1B07F900BAEBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D991FBF1D1B07F900BAEBCC /* LaunchScreen.storyboard */; };
 		3D991FCC1D1B07F900BAEBCC /* GroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FCB1D1B07F900BAEBCC /* GroceryListTests.swift */; };
 		3D991FD71D1B07F900BAEBCC /* GroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FD61D1B07F900BAEBCC /* GroceryListUITests.swift */; };
-		3D991FE81D1B089600BAEBCC /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FE71D1B089600BAEBCC /* GroceryItem.swift */; };
+		3D991FEA1D1B116000BAEBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D991FE91D1B116000BAEBCC /* Main.storyboard */; };
+		3D991FEE1D1B12B200BAEBCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D991FED1D1B12B200BAEBCC /* QuartzCore.framework */; };
+		3D991FF21D1B12DB00BAEBCC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D991FF11D1B12DB00BAEBCC /* MapKit.framework */; };
+		3D991FF41D1B12E600BAEBCC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D991FF31D1B12E600BAEBCC /* AVFoundation.framework */; };
+		3D991FF61D1B131C00BAEBCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D991FF51D1B131C00BAEBCC /* LoginViewController.swift */; };
 		7BDA2EB2CAFE4983539FFBC0 /* Pods_GroceryList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169AF41EF3470B911086C7D4 /* Pods_GroceryList.framework */; };
-		D1F0D7F8D9201D90DBBFBFF7 /* Pods_GroceryListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15280BC06455DEEBE530CAF2 /* Pods_GroceryListUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +42,12 @@
 /* Begin PBXFileReference section */
 		06802F42B97F086FA14E51E5 /* Pods-GroceryListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryListTests/Pods-GroceryListTests.release.xcconfig"; sourceTree = "<group>"; };
 		09C7FFE2834B3B6199F11ECB /* Pods-GroceryListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryListTests/Pods-GroceryListTests.debug.xcconfig"; sourceTree = "<group>"; };
-		15280BC06455DEEBE530CAF2 /* Pods_GroceryListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		169AF41EF3470B911086C7D4 /* Pods_GroceryList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4FD6521D1B168A006015E8 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		3D4FD6591D1B1BE3006015E8 /* GroceryList-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroceryList-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D991FB31D1B07F900BAEBCC /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D991FB61D1B07F900BAEBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D991FB81D1B07F900BAEBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D991FBB1D1B07F900BAEBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D991FB81D1B07F900BAEBCC /* GroceryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroceryListController.swift; path = GroceryList/GroceryListController.swift; sourceTree = "<group>"; };
 		3D991FBD1D1B07F900BAEBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D991FC01D1B07F900BAEBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D991FC21D1B07F900BAEBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,11 +57,14 @@
 		3D991FD21D1B07F900BAEBCC /* GroceryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D991FD61D1B07F900BAEBCC /* GroceryListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListUITests.swift; sourceTree = "<group>"; };
 		3D991FD81D1B07F900BAEBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D991FE71D1B089600BAEBCC /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		3D991FE91D1B116000BAEBCC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3D991FED1D1B12B200BAEBCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D991FF11D1B12DB00BAEBCC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D991FF31D1B12E600BAEBCC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D991FF51D1B131C00BAEBCC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		494B3AAFDA2F09E610A85C64 /* Pods-GroceryList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryList/Pods-GroceryList.debug.xcconfig"; sourceTree = "<group>"; };
 		9DDD1023F5DA5D4A90F6A4C4 /* Pods-GroceryListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryListUITests/Pods-GroceryListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BAA95F67BE6A6A7836ADE8BC /* Pods-GroceryList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryList.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryList/Pods-GroceryList.release.xcconfig"; sourceTree = "<group>"; };
-		D79F74E62532CE337E929428 /* Pods_GroceryListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5357470149F9C7394EC2307 /* Pods-GroceryListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryListUITests/Pods-GroceryListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D991FF41D1B12E600BAEBCC /* AVFoundation.framework in Frameworks */,
+				3D991FF21D1B12DB00BAEBCC /* MapKit.framework in Frameworks */,
+				3D991FEE1D1B12B200BAEBCC /* QuartzCore.framework in Frameworks */,
 				7BDA2EB2CAFE4983539FFBC0 /* Pods_GroceryList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209D50EE90BB9088B6EC6B45 /* Pods_GroceryListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F0D7F8D9201D90DBBFBFF7 /* Pods_GroceryListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 				3D991FB41D1B07F900BAEBCC /* Products */,
 				D4A1E0D574C80E317FE72994 /* Pods */,
 				6171ACFDF35AA6BA18B7605F /* Frameworks */,
+				3D4FD6591D1B1BE3006015E8 /* GroceryList-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,15 +123,13 @@
 		3D991FB51D1B07F900BAEBCC /* GroceryList */ = {
 			isa = PBXGroup;
 			children = (
+				3D991FB61D1B07F900BAEBCC /* AppDelegate.swift */,
 				3D991FE61D1B087E00BAEBCC /* Interface */,
 				3D991FE51D1B086F00BAEBCC /* Controllers */,
 				3D991FE41D1B085D00BAEBCC /* Models */,
-				3D991FB61D1B07F900BAEBCC /* AppDelegate.swift */,
-				3D991FB81D1B07F900BAEBCC /* ViewController.swift */,
-				3D991FBA1D1B07F900BAEBCC /* Main.storyboard */,
 				3D991FBD1D1B07F900BAEBCC /* Assets.xcassets */,
-				3D991FBF1D1B07F900BAEBCC /* LaunchScreen.storyboard */,
 				3D991FC21D1B07F900BAEBCC /* Info.plist */,
+				3D4FD6521D1B168A006015E8 /* GoogleService-Info (1).plist */,
 			);
 			path = GroceryList;
 			sourceTree = "<group>";
@@ -150,7 +155,7 @@
 		3D991FE41D1B085D00BAEBCC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3D991FE71D1B089600BAEBCC /* GroceryItem.swift */,
+				3D991FB81D1B07F900BAEBCC /* GroceryListController.swift */,
 			);
 			name = Models;
 			path = ..;
@@ -159,6 +164,7 @@
 		3D991FE51D1B086F00BAEBCC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D991FF51D1B131C00BAEBCC /* LoginViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 		3D991FE61D1B087E00BAEBCC /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				3D991FE91D1B116000BAEBCC /* Main.storyboard */,
+				3D991FBF1D1B07F900BAEBCC /* LaunchScreen.storyboard */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -173,9 +181,10 @@
 		6171ACFDF35AA6BA18B7605F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D991FF31D1B12E600BAEBCC /* AVFoundation.framework */,
+				3D991FF11D1B12DB00BAEBCC /* MapKit.framework */,
+				3D991FED1D1B12B200BAEBCC /* QuartzCore.framework */,
 				169AF41EF3470B911086C7D4 /* Pods_GroceryList.framework */,
-				D79F74E62532CE337E929428 /* Pods_GroceryListTests.framework */,
-				15280BC06455DEEBE530CAF2 /* Pods_GroceryListUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,9 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D991FEA1D1B116000BAEBCC /* Main.storyboard in Resources */,
 				3D991FC11D1B07F900BAEBCC /* LaunchScreen.storyboard in Resources */,
 				3D991FBE1D1B07F900BAEBCC /* Assets.xcassets in Resources */,
-				3D991FBC1D1B07F900BAEBCC /* Main.storyboard in Resources */,
+				3D4FD6531D1B168A006015E8 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +465,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D991FB91D1B07F900BAEBCC /* ViewController.swift in Sources */,
-				3D991FE81D1B089600BAEBCC /* GroceryItem.swift in Sources */,
+				3D991FF61D1B131C00BAEBCC /* LoginViewController.swift in Sources */,
+				3D991FB91D1B07F900BAEBCC /* GroceryListController.swift in Sources */,
 				3D991FB71D1B07F900BAEBCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,14 +503,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D991FBA1D1B07F900BAEBCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D991FBB1D1B07F900BAEBCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D991FBF1D1B07F900BAEBCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -600,10 +602,18 @@
 			baseConfigurationReference = 494B3AAFDA2F09E610A85C64 /* Pods-GroceryList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKCoreKit",
+				);
 				INFOPLIST_FILE = GroceryList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.whitlatch.GroceryList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroceryList-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -612,10 +622,17 @@
 			baseConfigurationReference = BAA95F67BE6A6A7836ADE8BC /* Pods-GroceryList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKCoreKit",
+				);
 				INFOPLIST_FILE = GroceryList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.whitlatch.GroceryList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroceryList-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 			};
 			name = Release;
 		};
